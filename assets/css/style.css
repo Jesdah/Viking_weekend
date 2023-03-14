@@ -1,78 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo&family=Maven+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Maven+pro, sans-serif;
     font-weight: 300;
     color: crimson;
 }
+
 h1 {
     font-family: macondo, sans-serif;
     text-transform: uppercase;
     display: flex;
     flex: auto;
 }
-h1, h2 {
+
+h1,
+h2 {
     float: left;
     color: black;
 }
+
 h2 {
     font-family: handlee, sans-serif;
     margin-bottom: 10px;
     width: 100%;
     margin-bottom: 20px;
 }
+
 p {
     width: 100%;
-    height: 100px;
     display: flex;
-    flex-direction: column;
+    height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+    color: black;
 }
+em {
+    font-style: italic;
+}
+
 
 /*nav links*/
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    
     color: red;
-    
 }
-#menu, li {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-list-style-type: none;
-margin: 8px;
-text-decoration: none;
+
+#menu,
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 8px;
+    text-decoration: none;
 
 }
-#menu, a {
+
+#menu,
+a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu li:hover {
-  color: yellow;
-  border-bottom: 1px solid; 
+    color: yellow;
+    border-bottom: 1px solid;
 }
+
 #active {
     border-bottom: 1px solid;
 }
+
 .flex-container {
     display: flex;
-  height: 20px;
-  flex-wrap: wrap;
-  align-content: space-between;
+    height: 20px;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
+
 /*head image*/
 #start-image {
-   background: url("../images/pexels-erik-mclean-5023687.jpg");
-   background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 380px;
-overflow: auto; 
+    background: url("../images/pexels-erik-mclean-5023687.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    overflow: auto;
+}
+
+#welcome {
+    max-width: 60%;
+    height: 300px;
+    display: flexbox;
+    flex-direction: column;
+    background-color: green;
+   
 }
