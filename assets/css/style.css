@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo&family=Maven+Pro&display=swap');
-h1 {
-    font-family: Macondo;
-    font-weight: 400;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Maven+pro, sans-serif;
+    font-weight: 300;
 }
