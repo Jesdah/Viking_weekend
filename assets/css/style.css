@@ -7,10 +7,15 @@
 body {
     font-family: Maven+pro, sans-serif;
     font-weight: 300;
+    color: crimson;
+}
+h1 {
+    font-family: macondo, sans-serif;
+    text-transform: uppercase;
 }
 h1, h2 {
     float: left;
-    
+    color: black;
     background-color: red;
 
 }
@@ -18,8 +23,9 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    background-color: blue;
-    color: brown;
+    
+    color: red;
+    
 }
 #menu, li {
 display: flex;
@@ -27,9 +33,11 @@ flex-direction: row;
 justify-content: flex-end;
 list-style-type: none;
 margin: 10px;
+text-decoration: none;
+
 }
 #menu li:hover {
-  
+  color: brown;
 }
 /*head image*/
 #start-image {
