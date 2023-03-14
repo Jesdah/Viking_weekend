@@ -19,6 +19,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
     background-color: blue;
+    color: brown;
 }
 #menu, li {
 display: flex;
@@ -26,6 +27,9 @@ flex-direction: row;
 justify-content: flex-end;
 list-style-type: none;
 margin: 10px;
+}
+#menu li:hover {
+  
 }
 /*head image*/
 #start-image {
