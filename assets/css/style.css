@@ -12,11 +12,13 @@ body {
 h1 {
     font-family: macondo, sans-serif;
     text-transform: uppercase;
+    display: flex;
+    flex: auto;
 }
 h1, h2 {
     float: left;
     color: black;
-    background-color: red;
+    
 
 }
 /*nav links*/
@@ -32,7 +34,7 @@ display: flex;
 flex-direction: row;
 justify-content: flex-end;
 list-style-type: none;
-margin: 10px;
+margin: 8px;
 text-decoration: none;
 
 }
@@ -42,10 +44,16 @@ text-decoration: none;
 }
 #menu li:hover {
   color: yellow;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid; 
 }
 #active {
     border-bottom: 1px solid;
+}
+.flex-container {
+    display: flex;
+  height: 20px;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 /*head image*/
 #start-image {
@@ -55,5 +63,5 @@ background-size: cover;
 background-position: center;
 width: 100%;
 height: 380px;
-overflow: hidden;  
+overflow: auto; 
 }
