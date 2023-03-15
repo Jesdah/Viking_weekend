@@ -130,4 +130,13 @@ iframe {
     justify-content: space-around;
     align-items: center;
     background-color: aqua;
+    padding-bottom: 50px;
+}
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+  left: 0;
+  bottom: 0;
 }
