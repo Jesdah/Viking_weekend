@@ -122,8 +122,12 @@ table {
 }
 iframe {
     height: 100px;
-    width: 100px;
+    width: 360px;
+}
+#flex-contact {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
 }
