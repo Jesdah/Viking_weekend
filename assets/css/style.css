@@ -17,7 +17,6 @@ h1 {
     text-transform: uppercase;
     display: flex;
     flex: auto;
-    margin-bottom: 10px;
 }
 
 h1,
@@ -165,7 +164,16 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    clear: both;
     width: 50%;
-    padding: 2%;
     background-color: green;
+}
+#event2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    clear: both;
+    width: 50%;
+    background-color: blue;
+    margin-bottom: 45px;
 }
