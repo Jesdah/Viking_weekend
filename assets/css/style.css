@@ -43,7 +43,14 @@ p {
 em {
     font-style: italic;
 }
-
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+}
 
 /*nav links*/
 #menu {
@@ -77,13 +84,11 @@ a {
 #active {
     border-bottom: 1px solid;
 }
-
-.flex-container {
+/*
+#logo {
     display: flex;
-    height: 20px;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
+    flex-direction: row;
+}*/
 
 /*head image*/
 #start-image {
