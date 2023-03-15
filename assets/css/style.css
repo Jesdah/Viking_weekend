@@ -146,5 +146,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+}
+#social a {
+    font-size: 300%;
 }
