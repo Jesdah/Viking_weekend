@@ -40,6 +40,9 @@ p {
 em {
     font-style: italic;
 }
+span {
+    font-weight: bold;
+}
 header {
     display: flex;
     align-items: flex-end;
@@ -108,4 +111,12 @@ a {
     background-color: green;
     
    
+}
+table {
+    width: 360px;
+    height: 70px;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: blueviolet;
 }
