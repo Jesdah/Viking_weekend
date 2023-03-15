@@ -110,10 +110,8 @@ a {
     height: 100%;
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: green;
-
-
 }
 
 table {
