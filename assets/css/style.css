@@ -113,16 +113,17 @@ a {
 }
 
 table {
-    width: 70px;
-    height: 360px;
+    width: auto;
+    height: auto;
     border-bottom: 1px solid;
-    
+    display: flex;
+    flex-flow: column wrap;
     background-color: blueviolet;
 }
 
 iframe {
     height: 100px;
-    width: 360px;
+    width: 100%;
 }
 
 #flex-contact {
@@ -131,9 +132,13 @@ iframe {
     justify-content: space-around;
     
     background-color: aqua;
-    padding-bottom: 50px;
+    
 }
-
+#contact {
+   
+    display: flex;
+    flex-direction: row;
+}
 footer {
     height: 10%;
     width: 100%;
