@@ -113,7 +113,7 @@ a {
 }
 
 table {
-    width: auto;
+    max-width: auto;
     height: auto;
     display: flex;
     flex-flow: column wrap;
@@ -127,7 +127,10 @@ iframe {
 #flex-contact {
     display: flex;
     flex-flow: column wrap;
-    color:black;
+    color: black;
+    background-color: rgba(119,136,153, 0.6);
+    max-width: 400px;
+
 
     
 }
