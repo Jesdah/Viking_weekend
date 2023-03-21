@@ -173,7 +173,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     clear: both;
-    width: 50%;
+    width: 100%;
     float: left;
     background-color: green;
 }
@@ -182,7 +182,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     clear: both;
-    width: 50%;
+    width: 100%;
     background-color: blue;
     margin-bottom: 45px;
     float: left;
