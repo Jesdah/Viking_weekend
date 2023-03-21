@@ -113,11 +113,10 @@ a {
 }
 
 table {
-    width: 360px;
-    height: 70px;
+    width: 70px;
+    height: 360px;
     border-bottom: 1px solid;
-    display: flex;
-    flex-flow: column wrap;
+    
     background-color: blueviolet;
 }
 
@@ -130,7 +129,7 @@ iframe {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-    align-items: center;
+    
     background-color: aqua;
     padding-bottom: 50px;
 }
