@@ -181,15 +181,16 @@ footer {
 }
 /*gallery*/
 #photos {
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    
+   flex-direction: column;
     float: right;
    
     
 }
 #photos img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    display: flex;
+    flex-flow: column wrap;
 }
