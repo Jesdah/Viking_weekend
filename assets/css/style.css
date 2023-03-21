@@ -115,7 +115,6 @@ a {
 table {
     width: auto;
     height: auto;
-    border-bottom: 1px solid;
     display: flex;
     flex-flow: column wrap;
 }
@@ -128,6 +127,7 @@ iframe {
 #flex-contact {
     display: flex;
     flex-flow: column wrap;
+    color:black;
 
     
 }
