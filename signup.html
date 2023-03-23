@@ -41,18 +41,18 @@
                     <form method="post" id="flex-form">
                         <label class="flex-left" for="fname">First name</label>
                         <input class="flex-right"id="fname" name="fname" required autofocus>
-                        <label for="lname">Last name</label>
-                        <input id="lname" name="lname" required>
-                        <label for="email">Email</label>
-                        <input id="email" type="email" name="email" required>
-                        <label for="number">Phone number</label>
-                        <input id="number" type="tel" name="number" required>
-                        <label for="child-name">Child/children names</label>
-                        <input id="child-name" name="child-name" required>
-                        <label for="age">Age</label>
-                        <input id="age" name="age" type="number" min="6" max="11" required>
-                        <label for="allergies">Allergies</label>
-                        <input list="allergies" required>
+                        <label class="flex-left" for="lname">Last name</label>
+                        <input class="flex-right" id="lname" name="lname" required>
+                        <label class="flex-left" for="email">Email</label>
+                        <input class="flex-right" id="email" type="email" name="email" required>
+                        <label class="flex-left" for="number">Phone number</label>
+                        <input class="flex-right" id="number" type="tel" name="number" required>
+                        <label class="flex-left" for="child-name">Child/children names</label>
+                        <input class="flex-right" id="child-name" name="child-name" required>
+                        <label class="flex-left" for="age">Age</label>
+                        <input class="flex-right" id="age" name="age" type="number" min="6" max="11" required>
+                        <label class="flex-left" for="allergies">Allergies</label>
+                        <input class="flex-right"list="allergies" required>
                         <datalist id="allergies">
                             <option value="None"></option>
                             <option value="Lactose"></option>
@@ -63,8 +63,8 @@
                             <option value="Celiac disease/gluten"></option>
                             <option value="Mustard"></option>
                         </datalist>
-                        <label for="add">Anything else you like to add?</label>
-                        <input id="add" name="add">
+                        <label class="flex-left" for="add">Anything else you like to add?</label>
+                        <input class="flex-right" id="add" name="add">
                         <input type="submit">
                         <input type="reset">
 
@@ -74,16 +74,39 @@
         </div>
     </section>
     <footer>
-        <div id="social">
-            <a href="http://www.facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="http://www.twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-square-twitter"></i></a>
-            <a href="http://www.instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Istagram page (opens in new tab)"><i
-                    class="fa-brands fa-square-instagram"></i></a>
-            <a href="http://www.youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our Youtube page (opens in new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+        <div id="footer-social">
+            <div id="social">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+                <a href="http://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Istagram page (opens in new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="http://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a>
+            </div>
+            <div id="flex-contact">
+                <h3>Contact</h3>
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td>Jesper Dahlberg</td>
+                    </tr>
+                    <tr>
+                        <th>Phonenumber:</th>
+                        <td>0769428508</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>jesperdahlberg.jd@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
         </div>
     </footer>
     <!--Font awesome script-->
