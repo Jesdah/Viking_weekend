@@ -219,6 +219,9 @@ footer {
     color: beige;
     background-color: rgba(47,79,79, 0.4);
 }
+#gallery-button:hover {
+    background-color: red;
+}
 /*photos in gallery*/
 #photos {
     width: 100%;
