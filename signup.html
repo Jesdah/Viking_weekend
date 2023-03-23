@@ -33,33 +33,46 @@
             </ul>
         </nav>
     </header>
-   <section>
-    <div id="signup-photo">
-        <div>
-            <form>
-                <label for="fname">First name</label>
-                <input id="fname" name="fname">
-                <label for="lname">Last name</label>
-                <input id="lname" name="lname">
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                <label for="number">Phone number</label>
-                <input id="number" type="tel">
-                <label for="child-name">Child/children names</label>
-                <input id="child-name">
-                <label for="age">Age</label>
-                <input id="age" type="number" min="6" max="11">
-                <label for="allergies">Allergies</label>
-                <input id="allergies" type="checkbox" value="allergies">
-                <label for="state">State allergies</label>
-                <input id="state">
-                <label for="add">Anithing else you like to add?</label>
-                <input id="add">
+    <section>
+        <div id="signup-photo">
+            <div>
+                <fieldset>
+                    <legend>Signup!</legend>
+                    <form method="post">
+                        <label for="fname">First name</label>
+                        <input id="fname" name="fname" required>
+                        <label for="lname">Last name</label>
+                        <input id="lname" name="lname" required>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" required>
+                        <label for="number">Phone number</label>
+                        <input id="number" type="tel" name="number" required>
+                        <label for="child-name">Child/children names</label>
+                        <input id="child-name" name="child-name" required>
+                        <label for="age">Age</label>
+                        <input id="age" name="age" type="number" min="6" max="11" required>
+                        <label for="allergies">Allergies</label>
+                        <input list="allergies" required>
+                        <datalist id="allergies">
+                            <option value="None"></option>
+                            <option value="Lactose"></option>
+                            <option value="Peanuts"></option>
+                            <option value="Nuts and almonds"></option>
+                            <option value="Egg"></option>
+                            <option value="Wheat/Cereal"></option>
+                            <option value="Celiac disease/gluten"></option>
+                            <option value="Mustard"></option>
+                        </datalist>
+                        <label for="add">Anything else you like to add?</label>
+                        <input id="add" name="add">
+                        <input type="submit">
+                        <input type="reset">
 
-            </form>
+                    </form>
+                </fieldset>
+            </div>
         </div>
-    </div>
-   </section>
+    </section>
     <footer>
         <nav id="social">
             <a href="http://www.facebook.com" target="_blank" rel="noopener"
