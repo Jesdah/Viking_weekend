@@ -103,6 +103,12 @@ a {
     width: 100%;
     height: 400px;
 }
+@media screen and (max-width: 800px){
+ #start-image, img {
+height: auto;
+ }   
+} 
+    
 
 #welcome {
     width: 100%;
