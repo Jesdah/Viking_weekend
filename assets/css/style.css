@@ -248,7 +248,14 @@ footer {
     color: beige;
 }
 .event-photo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.event-photo > img {
     border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 /*gallery*/
