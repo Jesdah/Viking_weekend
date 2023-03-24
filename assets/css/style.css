@@ -94,21 +94,26 @@ a {
 #start-image {
     width: 100%;
     height: 300px;
-    
+
 }
-#start-image, img {
+
+#start-image,
+img {
     position: relative;
     background: no-repeat center fixed;
     background-size: contain;
     width: 100%;
     height: 400px;
 }
-@media screen and (max-width: 800px){
- #start-image, img {
-height: auto;
- }   
-} 
-    
+
+@media screen and (max-width: 800px) {
+
+    #start-image,
+    img {
+        height: auto;
+    }
+}
+
 
 #welcome {
     width: 100%;
@@ -117,6 +122,8 @@ height: auto;
     flex-flow: column wrap;
     justify-content: space-around;
     margin: 20px 0 20px 0;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 table {
@@ -127,8 +134,9 @@ table {
 }
 
 iframe {
-    height: 100px;
+    height: 100%;
     width: 100%;
+    
 }
 
 
@@ -136,12 +144,14 @@ iframe {
 #contact {
     width: 100%;
     height: 360px;
-   background: url("../images/pexels-photo-10560239.jpeg") no-repeat center center;
+    background: url("../images/pexels-photo-10560239.jpeg") no-repeat center center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 45px;
 }
+
 footer {
     height: 10%;
     width: 100%;
@@ -153,15 +163,17 @@ footer {
     left: 0;
     bottom: 0;
 }
+
 #footer-social {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    width:100%;
+    width: 100%;
     height: 100%;
-    
+
 }
+
 #social {
     height: 100%;
     width: 80%;
@@ -175,24 +187,27 @@ footer {
     color: red;
     opacity: 80%;
 }
+
 /*contact info in the footer*/
 #flex-contact {
     display: flex;
     flex-flow: column wrap;
     justify-content: left;
     color: black;
-    background-color: rgba(119,136,153, 0.6);
+    background-color: rgba(119, 136, 153, 0.6);
     box-sizing: border-box;
     font-size: xx-small;
 }
-@media screen and (max-width:400px)
-{ #social {
-    font-size: 70%;
-    display: flex;
-    justify-content: flex-start;
+
+@media screen and (max-width:400px) {
+    #social {
+        font-size: 70%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }
-    
-}
+
 /*event page*/
 #event-main {
     background: url("../images/pexels-photo-1368382.jpeg") no-repeat center center;
@@ -201,6 +216,7 @@ footer {
     background-size: cover;
     position: relative;
 }
+
 #event1 {
     display: flex;
     flex-flow: column wrap;
@@ -209,12 +225,14 @@ footer {
     color: beige;
     margin: 50px 30px 50px 30px;
     padding: 30px 30px 30px 30px;
-    background-color: rgba(47,79,79, 0.6);
+    background-color: rgba(47, 79, 79, 0.6);
 
 }
+
 #event1 p {
     color: beige;
 }
+
 #event2 {
     display: flex;
     flex-flow: column wrap;
@@ -223,11 +241,13 @@ footer {
     color: beige;
     margin: 50px 30px 50px 30px;
     padding: 30px 30px 30px 30px;
-    background-color: rgba(47,79,79, 0.6);
+    background-color: rgba(47, 79, 79, 0.6);
 }
+
 #event2 p {
     color: beige;
 }
+
 /*gallery*/
 #nav-gallery {
     width: 100%;
@@ -235,6 +255,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 #gallery-button {
     display: block;
     border: none;
@@ -244,56 +265,64 @@ footer {
     font-family: 'Maven Pro', sans-serif;
     text-transform: uppercase;
     color: beige;
-    background-color: rgba(47,79,79, 0.4);
+    background-color: rgba(47, 79, 79, 0.4);
 }
+
 #gallery-button:hover {
     background-color: red;
 }
+
 /*photos in gallery*/
 #photos {
     width: 100%;
     display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 60px;
-  
-    
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+
 }
-#photos >img {
+
+#photos>img {
     width: 50%;
     height: auto;
     display: flex;
     flex: 50%;
     align-items: center;
 }
+
 /* sign up section*/
 #signup-photo {
-   background: url("../images/pexels-hannah-grapp-9580874.jpg") no-repeat center fixed;
-   background-size: cover;
-   width: 100%;
-   height: 800px;
+    background: url("../images/pexels-hannah-grapp-9580874.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 }
+
 /*fieldset*/
 fieldset {
-    background-color:rgba(47,79,79, 0.4);
+    background-color: rgba(47, 79, 79, 0.4);
     width: 33%;
     padding: 30px;
     box-sizing: border-box;
 }
+
 #flex-form {
     display: flex;
     flex-direction: column;
     column-count: 2;
     flex-wrap: wrap;
-    
+
 }
+
 .flex-left {
-width: 50%;
-display: flex;
-flex: 50%;
+    width: 50%;
+    display: flex;
+    flex: 50%;
 }
+
 .flex-right {
-width: 50%;
-display: flex;
-flex: 50%;
-align-content: flex-end;
+    width: 50%;
+    display: flex;
+    flex: 50%;
+    align-content: flex-end;
 }
