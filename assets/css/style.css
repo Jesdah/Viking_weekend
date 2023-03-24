@@ -217,7 +217,7 @@ footer {
     position: relative;
 }
 
-#event1 {
+.event {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -229,24 +229,10 @@ footer {
 
 }
 
-#event1 p {
+.event p {
     color: beige;
 }
 
-#event2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    color: beige;
-    margin: 50px 30px 50px 30px;
-    padding: 30px 30px 30px 30px;
-    background-color: rgba(47, 79, 79, 0.6);
-}
-
-#event2 p {
-    color: beige;
-}
 .event-photo {
     width: 100%;
     display: flex;
