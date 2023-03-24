@@ -93,12 +93,11 @@ a {
 /*head image*/
 #start-image {
     width: 100%;
-    
+
 
 }
 
-#start-image >
-img {
+#start-image>img {
     position: relative;
     background: no-repeat center fixed;
     background-size: contain;
@@ -108,8 +107,7 @@ img {
 
 @media screen and (max-width: 800px) {
 
-    #start-image >
-    img {
+    #start-image>img {
         height: auto;
     }
 }
@@ -136,7 +134,7 @@ table {
 iframe {
     height: 100%;
     width: 100%;
-    
+
 }
 
 
@@ -210,7 +208,7 @@ footer {
 
 /*event page*/
 #event-main {
-    background: url("../images/pexels-photo-1368382.jpeg") no-repeat center center;
+    background: url("../images/pexels-photo-3012055.webp") no-repeat center center;
     height: 100%;
     overflow: auto;
     background-size: cover;
@@ -236,12 +234,32 @@ footer {
 .event-photo {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.event-photo > img {
+
+.event-photo>img {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width:600px) {
+    .event {
+        display: flex;
+    }
+
+    .event-photo {
+        display: flex;
+    }
+
+    .event-photo>img {
+        border-radius: unset;
+        width: 100px;
+        height: 100px;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
 }
 
 /*gallery*/
