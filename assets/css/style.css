@@ -320,11 +320,15 @@ fieldset {
     box-sizing: border-box;
     color: beige;
 }
+@media screen and (max-width:600px){
+   fieldset{
+ width: 100%;
+}
+}
 
 #flex-form {
     display: flex;
     flex-direction: column;
-    column-count: 2;
     flex-wrap: wrap;
 
 }
