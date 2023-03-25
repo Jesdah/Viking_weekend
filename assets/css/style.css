@@ -386,3 +386,18 @@ input[type="text"]:focus {
     border-style: groove;
     border-color: aqua;
 }
+#thank-you {
+    position: fixed;
+    text-align: center;
+    background-color: rgba(47, 79, 79, 0.4);
+    display: flex;
+    justify-content: center;
+    top: 35%;
+    left: 14%;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 30px;
+}
+#thank-you,h2,p {
+    color: beige;
+}
