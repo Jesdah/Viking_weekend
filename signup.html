@@ -41,20 +41,20 @@
                         <h3>Signup!</h3>
                     </legend>
                     <form method="post" id="flex-form">
-                        <label class="flex-left" for="fname">First name</label>
-                        <input type="text"class="flex-right" id="fname" name="fname" required autofocus>
-                        <label class="flex-left" for="lname">Last name</label>
-                        <input type="text" class="flex-right" id="lname" name="lname" required>
-                        <label class="flex-left" for="email">Email</label>
-                        <input type="text" class="flex-right" id="email" type="email" name="email" required>
-                        <label class="flex-left" for="number">Phone number</label>
-                        <input type="text" class="flex-right" id="number" type="tel" name="number" required>
-                        <label class="flex-left" for="child-name">Child/children names</label>
-                        <input type="text" class="flex-right" id="child-name" name="child-name" required>
-                        <label class="flex-left" for="age">Age</label>
-                        <input type="text" class="flex-right" id="age" name="age" type="number" min="6" max="11" required>
-                        <label class="flex-left" for="allergies">Allergies</label>
-                        <input type="text" class="flex-right" list="allergies" required>
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" required autofocus>
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname" required>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" type="email" name="email" required>
+                        <label for="number">Phone number</label>
+                        <input type="text" id="number" type="tel" name="number" required>
+                        <label for="child-name">Child/children names</label>
+                        <input type="text" id="child-name" name="child-name" required>
+                        <label for="age">Age</label>
+                        <input type="text" id="age" name="age" type="number" min="6" max="11" required>
+                        <label for="allergies">Allergies</label>
+                        <input type="text" list="allergies" required>
                         <datalist id="allergies">
                             <option value="None"></option>
                             <option value="Lactose"></option>
@@ -65,8 +65,8 @@
                             <option value="Celiac disease/gluten"></option>
                             <option value="Mustard"></option>
                         </datalist>
-                        <label class="flex-left" for="add">Anything else you like to add?</label>
-                        <input type="text" class="flex-right" id="add" name="add">
+                        <label for="add">Anything else you like to add?</label>
+                        <textarea type="text" id="add" name="add"></textarea>
                         <input class="signup-submit" id="submit" type="submit">
                             <input class="signup-submit" id="reset" type="reset">
                     </form>
