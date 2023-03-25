@@ -37,22 +37,24 @@
         <div id="signup-photo">
             <div>
                 <fieldset>
-                    <legend><h3>Signup!</h3></legend>
+                    <legend>
+                        <h3>Signup!</h3>
+                    </legend>
                     <form method="post" id="flex-form">
                         <label class="flex-left" for="fname">First name</label>
-                        <input class="flex-right"id="fname" name="fname" required autofocus>
+                        <input type="text"class="flex-right" id="fname" name="fname" required autofocus>
                         <label class="flex-left" for="lname">Last name</label>
-                        <input class="flex-right" id="lname" name="lname" required>
+                        <input type="text" class="flex-right" id="lname" name="lname" required>
                         <label class="flex-left" for="email">Email</label>
-                        <input class="flex-right" id="email" type="email" name="email" required>
+                        <input type="text" class="flex-right" id="email" type="email" name="email" required>
                         <label class="flex-left" for="number">Phone number</label>
-                        <input class="flex-right" id="number" type="tel" name="number" required>
+                        <input type="text" class="flex-right" id="number" type="tel" name="number" required>
                         <label class="flex-left" for="child-name">Child/children names</label>
-                        <input class="flex-right" id="child-name" name="child-name" required>
+                        <input type="text" class="flex-right" id="child-name" name="child-name" required>
                         <label class="flex-left" for="age">Age</label>
-                        <input class="flex-right" id="age" name="age" type="number" min="6" max="11" required>
+                        <input type="text" class="flex-right" id="age" name="age" type="number" min="6" max="11" required>
                         <label class="flex-left" for="allergies">Allergies</label>
-                        <input class="flex-right"list="allergies" required>
+                        <input type="text" class="flex-right" list="allergies" required>
                         <datalist id="allergies">
                             <option value="None"></option>
                             <option value="Lactose"></option>
@@ -64,11 +66,13 @@
                             <option value="Mustard"></option>
                         </datalist>
                         <label class="flex-left" for="add">Anything else you like to add?</label>
-                        <input class="flex-right" id="add" name="add">
-                        <input id="submit" type="submit">
-                        <input id="reset"type="reset">
-
+                        <input type="text" class="flex-right" id="add" name="add">
+                        
                     </form>
+                    <div>
+                            <input class="signup-submit" id="submit" type="submit">
+                            <input class="signup-submit" id="reset" type="reset">
+                        </div>
                 </fieldset>
             </div>
         </div>
