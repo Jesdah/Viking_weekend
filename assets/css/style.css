@@ -33,7 +33,7 @@ h2 {
 }
 
 p {
-    color: black;
+    color: beige;
 }
 
 em {
@@ -123,7 +123,9 @@ a {
     padding: 30px;
     box-sizing: border-box;
 }
-
+#welcome >p {
+    color: black;
+}
 table {
     max-width: auto;
     height: auto;
@@ -227,9 +229,7 @@ footer {
 
 }
 
-.event p {
-    color: beige;
-}
+
 
 .event-photo {
     width: 100%;
@@ -349,9 +349,7 @@ textarea:focus {
 input[type="text"]:focus {
     border: 3px solid #401111;
 }
-.signup-submit {
-    display: flex;
-}
+
 #submit {
     display: block;
     border: none;
@@ -361,7 +359,6 @@ input[type="text"]:focus {
     width: fit-content;
     font-size: larger;
     font-family: 'Maven Pro', sans-serif;
-    text-transform: uppercase;
     color: beige;
     background-color:#401111;
 }
@@ -375,7 +372,6 @@ input[type="text"]:focus {
     margin:10px;
     border-radius: 8px;
     font-family: 'Maven Pro', sans-serif;
-    text-transform: uppercase;
     color: beige;
     width: 88px;
     height: 30px;
@@ -398,6 +394,6 @@ input[type="text"]:focus {
     height: 200px;
     padding: 30px;
 }
-#thank-you,h2,p {
+#thank-you, h2, p {
     color: beige;
 }
