@@ -383,7 +383,6 @@ input[type="text"]:focus {
     border-color: aqua;
 }
 #thank-you {
-    position: fixed;
     text-align: center;
     background-color: rgba(47, 79, 79, 0.4);
     display: flex;
@@ -393,7 +392,9 @@ input[type="text"]:focus {
     flex-wrap: wrap;
     height: 200px;
     padding: 30px;
+    margin: auto;
+    width: 50%;
 }
-#thank-you, h2, p {
+#thank-you, h2 {
     color: beige;
 }
