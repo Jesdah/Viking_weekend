@@ -129,7 +129,6 @@ a {
 }
 
 table {
-    max-width: auto;
     height: auto;
     display: flex;
     flex-flow: column wrap;
