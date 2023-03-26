@@ -123,9 +123,11 @@ a {
     padding: 30px;
     box-sizing: border-box;
 }
-#welcome >p {
+
+#welcome>p {
     color: black;
 }
+
 table {
     max-width: auto;
     height: auto;
@@ -204,6 +206,8 @@ footer {
         font-size: 70%;
         display: flex;
         justify-content: flex-start;
+        letter-spacing: 12px;
+        padding: 5px;
     }
 
 }
@@ -320,10 +324,11 @@ fieldset {
     box-sizing: border-box;
     color: beige;
 }
-@media screen and (max-width:600px){
-   fieldset{
- width: 100%;
-}
+
+@media screen and (max-width:600px) {
+    fieldset {
+        width: 100%;
+    }
 }
 
 #flex-form {
@@ -333,20 +338,13 @@ fieldset {
 
 }
 
-input[type="text"] {
+.text {
     background-color: rgba(47, 79, 79, 0.4);
     outline: none;
     color: beige;
 }
-textarea {
-    background-color: rgba(47, 79, 79, 0.4);
-    outline: none;
-    color: beige;
-}
-textarea:focus {
-    border: 3px solid #401111;
-}
-input[type="text"]:focus {
+
+.text:focus {
     border: 3px solid #401111;
 }
 
@@ -355,21 +353,23 @@ input[type="text"]:focus {
     border: none;
     cursor: pointer;
     padding: 20px;
-    margin:10px;
+    margin: 10px;
     width: fit-content;
     font-size: larger;
     font-family: 'Maven Pro', sans-serif;
     color: beige;
-    background-color:#401111;
+    background-color: #401111;
 }
+
 #submit:hover {
     background-color: red;
 }
+
 #reset {
     display: block;
     border: none;
     cursor: pointer;
-    margin:10px;
+    margin: 10px;
     border-radius: 8px;
     font-family: 'Maven Pro', sans-serif;
     color: beige;
@@ -378,10 +378,12 @@ input[type="text"]:focus {
     text-align: center;
     background: border-box;
 }
+
 #reset:hover {
     border-style: groove;
     border-color: aqua;
 }
+
 #thank-you {
     text-align: center;
     background-color: rgba(47, 79, 79, 0.4);
@@ -395,6 +397,8 @@ input[type="text"]:focus {
     margin: auto;
     width: 50%;
 }
-#thank-you, h2 {
+
+#thank-you,
+h2 {
     color: beige;
 }
