@@ -65,10 +65,17 @@
                             <option value="Celiac disease/gluten"></option>
                             <option value="Mustard"></option>
                         </datalist>
+                        <label for="dates">Dates</label>
+                        <input class="text" list="dates" aria-label="Dates" required>
+                        <datalist id="dates">
+                            <option value="30/6-02/7"></option>
+                            <option value="07/7-09/7"></option>
+                            <option value="14/7-16/7"></option>
+                        </datalist>  
                         <label for="add">Anything else you like to add?</label>
                         <textarea class="text" id="add" name="add"></textarea>
                         <input id="submit" type="submit" value="Submit">
-                            <input id="reset" type="reset" value="Reset">
+                        <input id="reset" type="reset" value="Reset">
                     </form>
                 </fieldset>
             </div>
