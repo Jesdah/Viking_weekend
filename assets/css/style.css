@@ -346,14 +346,6 @@ fieldset {
 .text:focus {
     border: 3px solid #401111;
 }
-.dates {
-    display: flex;
-    flex-direction: row;
-}
-
-    
-
-
 
 #submit {
     display: block;
