@@ -3,31 +3,39 @@
 ## This is a website for summer camps with a viking theme for children between 6-11 years.
 Viking weekend is a perfect opportunity to get to know new friends.
 ### Navbar.
-It is identical on all pages to make it easy to navigate between the different pages, in the navbar there is a heading and "HOME" which takes you to the homepage, "EVENT", "GALLERY" and "SIGNUP" which takes you to the respective page.
 ![screenshot of the navbar](/assets/images/navbar.png)
+* It is identical on all pages to make it easy to navigate between the different pages, in the navbar there is a heading and "HOME" which takes you to the homepage, "EVENT", "GALLERY" and "SIGNUP" which takes you to the respective page.
 ### Start image.
-The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs arouse curiosity in both children and parents.
 ![screenshot of two old cottages with grassroof](/assets/images/screenshot-cottage.png)
-### Welcome section
-The purpose of the text is to give the reader an overview of what the parent can expect from the camp, the reader should understand what the camp is about, what the parent should think about when packing the bag for their children and that the parent can feel confident that the staff has years of experience.
+The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs arouse curiosity in both children and parents.
+
+### Welcome section.
 ![Screenshot of some welcome text](/assets/images/welcome.png)
+The purpose of the text is to give the reader an overview of what the parent can expect from the camp, the reader should understand what the camp is about, what the parent should think about when packing the bag for their children and that the parent can feel confident that the staff has years of experience.
+
 ### The Footer.
-the footer is placed at the bottom of the page with a background of stone and it is identical on all pages. In the footer we find contact information for the person in charge of the event as well as four links to social media.
 ![Screenshot of the stone footer with icons to social media and contact information](/assets/images/stone-footer.png)
+the footer is placed at the bottom of the page with a background of stone and it is identical on all pages. In the footer we find contact information for the person in charge of the event as well as four links to social media.
+
 ### Events.
+![Screenshot of a vikingship in a lake](/assets/images/adventure-image.png)
+![Screenshot of the text on Event page](/assets/images/adventure-text.png)
 On the event pages we find two text sections that describe in more detail what the children can expect from the camp and to clarify this I have chosen to include seven pictures.
 At the bottom of the page there is a button that says "GALLERY", from there you can get to the GALLERY page.
 This is to the user's advantage because when you have read and checked the pictures, you can easily press the button to see even more pictures.
-![Screenshot of a vikingship in a lake](/assets/images/adventure-image.png)
-![Screenshot of the text on Event page](/assets/images/adventure-text.png)
+
 ### Gallery.
-The aim is to give children and parents an insight and to be able to identify the different activities and environments.
 ![A small screenshot of two images in gallery](/assets/images/gallery-example.png)
+The aim is to give children and parents an insight and to be able to identify the different activities and environments.
+
 ### Sign up.
-The site allows parents/guardians to register their child or children in a simple way. The parent/guardian will need to fill in their full name, email, child's name, child's age, any allergies and which date they want to participate.
 ![Screenshot of the signup page](/assets/images/signup-girl.png)
+The site allows parents/guardians to register their child or children in a simple way. The parent/guardian will need to fill in their full name, email, child's name, child's age, any allergies and which date they want to participate.
+
 ### Thank you.
 ![Screenshot of the thank you text](/assets/images/thank-you.png)
+When you have pressed submit, you will be taken to the thank you page.
+This function ensures that the user receives a confirmation that the application has been submitted, after ten seconds they are sent back to the homepage.
 ### Features left to implement.
 I would like to implement IFRAME in the #contact section with a working map.
 ### Testing.
