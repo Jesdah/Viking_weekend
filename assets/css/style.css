@@ -232,7 +232,7 @@ footer {
     align-items: center;
     color: beige;
     margin: 50px 30px 50px 30px;
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
     background-color: rgba(47, 79, 79, 0.6);
 
 }
@@ -242,7 +242,8 @@ footer {
 .event-photo {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .event-photo>img {
@@ -251,15 +252,7 @@ footer {
     width: 200px;
 }
 
-@media screen and (max-width:600px) {
-    .event {
-        display: flex;
-    }
-
-    .event-photo {
-        display: flex;
-    }
-
+@media screen and (max-width:800px) {
     .event-photo>img {
         border-radius: unset;
         width: 100px;
@@ -311,7 +304,11 @@ footer {
     flex: 50%;
     align-items: center;
 }
-
+@media screen and (max-width:400px) {
+    #photos>img {
+        width:100%
+    }
+}
 /* sign up section*/
 #signup-photo {
     background: url("../images/girl-horse.jpg") no-repeat center fixed;
