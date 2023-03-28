@@ -33,54 +33,56 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div id="signup-photo">
-            <div>
-                <fieldset>
-                    <legend>
-                        <h3>Signup!</h3>
-                    </legend>
-                    <form method="get" action="thank-you.html" id="flex-form">
-                        <label for="fname">First name</label>
-                        <input class="text" type="text" id="fname" name="fname" required autofocus>
-                        <label for="lname">Last name</label>
-                        <input class="text" type="text" id="lname" name="lname" required>
-                        <label for="email">Email</label>
-                        <input class="text" id="email" type="email" name="email" required>
-                        <label for="number">Phone number</label>
-                        <input class="text" id="number" type="tel" name="number" required>
-                        <label for="child-name">Child/children names</label>
-                        <input class="text" type="text" id="child-name" name="child-name" required>
-                        <label for="age">Age</label>
-                        <input class="text" id="age" name="age" type="number" min="6" max="11" required>
-                        <label for="allergies">Allergies</label>
-                        <input class="text" list="allergies" aria-label="Allergies" required>
-                        <datalist id="allergies">
-                            <option value="None"></option>
-                            <option value="Lactose"></option>
-                            <option value="Peanuts"></option>
-                            <option value="Nuts and almonds"></option>
-                            <option value="Egg"></option>
-                            <option value="Wheat/Cereal"></option>
-                            <option value="Celiac disease/gluten"></option>
-                            <option value="Mustard"></option>
-                        </datalist>
-                        <label for="dates">Dates</label>
-                        <input class="text" list="dates" aria-label="Dates" required>
-                        <datalist id="dates">
-                            <option value="30/6-02/7"></option>
-                            <option value="07/7-09/7"></option>
-                            <option value="14/7-16/7"></option>
-                        </datalist>  
-                        <label for="add">Anything else you like to add?</label>
-                        <textarea class="text" id="add" name="add"></textarea>
-                        <input id="submit" type="submit" value="Submit">
-                        <input id="reset" type="reset" value="Reset">
-                    </form>
-                </fieldset>
+    <main>
+        <div>
+            <div id="signup-photo">
+                <div>
+                    <fieldset>
+                        <legend>
+                            <h3>Signup!</h3>
+                        </legend>
+                        <form method="get" action="thank-you.html" id="flex-form">
+                            <label for="fname">First name</label>
+                            <input class="text" type="text" id="fname" name="fname" required autofocus>
+                            <label for="lname">Last name</label>
+                            <input class="text" type="text" id="lname" name="lname" required>
+                            <label for="email">Email</label>
+                            <input class="text" id="email" type="email" name="email" required>
+                            <label for="number">Phone number</label>
+                            <input class="text" id="number" type="tel" name="number" required>
+                            <label for="child-name">Child/children names</label>
+                            <input class="text" type="text" id="child-name" name="child-name" required>
+                            <label for="age">Age</label>
+                            <input class="text" id="age" name="age" type="number" min="6" max="11" required>
+                            <label for="allergies">Allergies</label>
+                            <input class="text" list="allergies" aria-label="Allergies" required>
+                            <datalist id="allergies">
+                                <option value="None"></option>
+                                <option value="Lactose"></option>
+                                <option value="Peanuts"></option>
+                                <option value="Nuts and almonds"></option>
+                                <option value="Egg"></option>
+                                <option value="Wheat/Cereal"></option>
+                                <option value="Celiac disease/gluten"></option>
+                                <option value="Mustard"></option>
+                            </datalist>
+                            <label for="dates">Dates</label>
+                            <input class="text" list="dates" aria-label="Dates" required>
+                            <datalist id="dates">
+                                <option value="30/6-02/7"></option>
+                                <option value="07/7-09/7"></option>
+                                <option value="14/7-16/7"></option>
+                            </datalist>
+                            <label for="add">Anything else you like to add?</label>
+                            <textarea class="text" id="add" name="add"></textarea>
+                            <input id="submit" type="submit" value="Submit">
+                            <input id="reset" type="reset" value="Reset">
+                        </form>
+                    </fieldset>
+                </div>
             </div>
         </div>
-    </section>
+    </main>
     <footer>
         <div id="footer-social">
             <div id="social">
