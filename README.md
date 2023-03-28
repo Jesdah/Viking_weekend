@@ -1,108 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Jesper Dahlberg,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
+![screenshot of Vikingweekend header text](/assets/images/viking-weekend.png)
+# welcome to viking weekend! 
+## This is a website for summer camps with a viking theme for children between 6-11 years.
+Viking weekend is a perfect opportunity to get to know new friends.
+### Navbar.
+It is identical on all pages to make it easy to navigate between the different pages, in the navbar there is a heading and "HOME" which takes you to the homepage, "EVENT", "GALLERY" and "SIGNUP" which takes you to the respective page.
+![screenshot of the navbar](/assets/images/navbar.png)
+### Start image.
+The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs arouse curiosity in both children and parents.
+![screenshot of two old cottages with grassroof](/assets/images/screenshot-cottage.png)
+### Welcome section
+The purpose of the text is to give the reader an overview of what the parent can expect from the camp, the reader should understand what the camp is about, what the parent should think about when packing the bag for their children and that the parent can feel confident that the staff has years of experience.
+![Screenshot of some welcome text](/assets/images/welcome.png)
+### The Footer.
+the footer is placed at the bottom of the page with a background of stone and it is identical on all pages. In the footer we find contact information for the person in charge of the event as well as four links to social media.
+![Screenshot of the stone footer with icons to social media and contact information](/assets/images/stone-footer.png)
+### Events.
+On the event pages we find two text sections that describe in more detail what the children can expect from the camp and to clarify this I have chosen to include seven pictures.
+At the bottom of the page there is a button that says "GALLERY", from there you can get to the GALLERY page.
+This is to the user's advantage because when you have read and checked the pictures, you can easily press the button to see even more pictures.
+![Screenshot of a vikingship in a lake](/assets/images/adventure-image.png)
+![Screenshot of the text on Event page](/assets/images/adventure-text.png)
+### Gallery.
+The aim is to give children and parents an insight and to be able to identify the different activities and environments.
+![A small screenshot of two images in gallery](/assets/images/gallery-example.png)
+### Sign up.
+The site allows parents/guardians to register their child or children in a simple way. The parent/guardian will need to fill in their full name, email, child's name, child's age, any allergies and which date they want to participate.
+![Screenshot of the signup page](/assets/images/signup-girl.png)
+### Thank you.
+![Screenshot of the thank you text](/assets/images/thank-you.png)
+### Features left to implement.
+I would like to implement IFRAME in the #contact section with a working map.
+### Testing.
+* The website works in Chrome and Edge
+* The website works as it should in both desktop and mobile view.
+* All functions work except iframe.
+* The website is tested in lighthouse with high scores.
+### Validator Testing
+1. HTML
+- some errors were returned when passing through the official W3C validator
+2. CSS
+- No errors were found when passing through the official (Jigsaw) validator
+### Unfixed Bugs
+### Deployment.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+https://jesdah.github.io/Viking_weekend/
+### Credit.
+* The code for the navbar is taken from the [loverunning project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/07-gallery/02-gallery-images/index.html)
+* I learned how to use flex [w3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)And at [Flexboxfroggy](https://www.flexboxfroggy.com/)
+* I got the code to make the thank-you page redirect to the homepage from gareth_mentor:
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+<meta http-equiv="refresh" content="10; url=index.html">
 ```
+* I have used [w3schools](https://www.w3schools.com/) a lot for inspiration and tips and tricks
+* To compress images I have used [squoosh](https://squoosh.app/editor)
 
-**Anything more?**
+* To get a fixed footer I have taken the code from [w3schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* For symbols in the footer I have used [Fontawesome](https://fontawesome.com/)
+* I found the pictures at [pexels](https://www.pexels.com/sv-se/)
