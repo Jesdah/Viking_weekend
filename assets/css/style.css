@@ -194,9 +194,8 @@ footer {
     flex-flow: column wrap;
     color: beige;
     font-size: x-small;
-    padding: 10px;
-    height: 100%;
     align-items: center;
+    margin-left: 10px
 }
 
 @media screen and (max-width:400px) {
