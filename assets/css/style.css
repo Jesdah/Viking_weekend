@@ -155,7 +155,7 @@ iframe {
     align-items: center;
     margin-bottom: 45px;
 }
-
+/*code copied from https://www.w3schools.com/howto/howto_css_fixed_footer.asp to get a fixed footer*/
 footer {
     height: 10%;
     width: 100%;
