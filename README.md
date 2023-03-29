@@ -90,21 +90,44 @@ Testing was performed to ensure all navigation links on the respective pages, na
 |GALLERY     | gallery.html      |
 Links on all pages navigated to the correct pages as exptected.
 ### Form Testing.
-The form on the signup page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input.
+The form on the signup page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input.<br>
 Steps to test:
 1. Navigate to [Viking weekend signup page.](https://jesdah.github.io/Viking_weekend/signup.html)
 2. Scroll down to the form and input the following data:
    - First Name: John
    - Last Name: Doe
    - Email: doe.john@test.com
-   - Comment: This is a test.
+   - Phonenumber: 123456789
+   - age: 8
+   - Allergies: none
+   - Dates: select a date
+   - Anything else you like to add?: This is optional
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to thank-you.html confirmation page.<br>
+Expected:
+
+Form submits with no warnings or errors and user is redirected to index.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to index.html.<br>
+If a required field is missing the user will not be able to submit and an error field will be displayed.
+### Footer Social Media Icons / Links
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+
+Each item opened a new tab when clicked as expected.
+
 ### Validator Testing
-1. HTML
-- some errors were returned when passing through the official W3C validator
-2. CSS
-- No errors were found when passing through the official (Jigsaw) validator
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  ![validator result index.html](/assets/images/validator-index.png)
+  ![validator result events.html](/assets/images/validator-events.png)
+  ![validator result gallery.html](/assets/images/validator-gallery.png)
+  ![validator result signup.html](/assets/images/validator-signup.png)
+  ![validator result thank-you.html](/assets/images/validator-thank-you.png)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+  ![validator result css](/assets/images/validator-css-vikingweekend.png)
 ### Unfixed Bugs
 ### Deployment.
 The site was deployed to GitHub pages. The steps to deploy are as follows:

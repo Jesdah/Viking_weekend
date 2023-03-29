@@ -195,15 +195,14 @@ footer {
     color: beige;
     font-size: x-small;
     align-items: center;
-    margin-left: 10px
+    margin-left: 10px;
+    width: 120px;
 }
 
-@media screen and (max-width:400px) {
+
+@media screen and (max-width:700px) {
     #social {
         font-size: 70%;
-        display: flex;
-        justify-content: flex-start;
-        letter-spacing: 12px;
         padding: 5px;
     }
 
