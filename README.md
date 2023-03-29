@@ -8,10 +8,10 @@ Viking weekend is a perfect opportunity to get to know new friends.
 * This will allow users to easily navigate between the pages within the site on any size device.
 ### Start image.
 ![screenshot of two old cottages with grassroof](/assets/images/screenshot-cottage.png)
-The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs arouse curiosity in both children and parents.
+The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs trigger curiosity in both children and parents.
 
 ### Welcome section.
-![Screenshot of some welcome text](/assets/images/welcome.png)
+![Screenshot of some welcome text](/assets/images/welcome.png)<br>
 The purpose of the text is to give the reader an overview of what the parent can expect from the camp, the reader should understand what the camp is about, what the parent should think about when packing the bag for their children and that the parent can feel confident that the staff has years of experience.
 
 ### The Footer.
@@ -36,7 +36,7 @@ The aim is to give children and parents an insight and to be able to identify th
 The site allows parents/guardians to register their child or children in a simple way. The parent/guardian will need to fill in their full name, email, child's name, child's age, any allergies and which date they want to participate.
 
 ### Thank you.
-![Screenshot of the thank you text](/assets/images/thank-you.png)
+![Screenshot of the thank you text](/assets/images/thank-you.png)<br>
 When you have pressed submit, you will be taken to the thank you page.
 This function ensures that the user receives a confirmation that the application has been submitted, after ten seconds they are sent back to the homepage.
 ### Existing features.
@@ -63,7 +63,7 @@ I would like to implement IFRAME in the #contact section with a working map.
 ### Responsivenes.
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on Chrome and Edge.
 ### Steps to test:
-1. Open browser and navigate to Tacos Travels
+1. Open browser and navigate to [Viking weekend](/index.html).
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -71,15 +71,16 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 ### Expected:
 Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
 ### Actual:
-Website behaved as expected with the exception of the flex-contact being pushed out to the left when the width is under 353px.
+* Website behaved as expected with the exception of the flex-contact being pushed out to the left when the width is under 353px.
+    * This was fixed by setting #flex-contact width:120px and @media #social: removal of flex atributes and letter-spacing
 ### Website was also opened on the following devices and no responsive issues were seen:
 * Samsung S22
 * Iphone 13
 * Lenovo ideapad S340
 ## Lighthouse Testing.
-![screenshot of index.html lighthouse score](/assets/images/lighthouse-index.png)
-![screenshot of events.html lighthouse score](/assets/images/lighthouse-event.png)
-![screenshot of gallery.html lighthouse score](/assets/images/lighthouse-gallery.png)
+![screenshot of index.html lighthouse score](/assets/images/lighthouse-index.png)<br>
+![screenshot of events.html lighthouse score](/assets/images/lighthouse-event.png)<br>
+![screenshot of gallery.html lighthouse score](/assets/images/lighthouse-gallery.png)<br>
 ![screenshot of signup.html lighthouse score](/assets/images/lighthouse-signup.png)
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
@@ -104,11 +105,11 @@ Steps to test:
    - Anything else you like to add?: This is optional
 3. Click Submit
 4. User should be redirected to thank-you.html confirmation page.<br>
-Expected:
+### Expected:
 
 Form submits with no warnings or errors and user is redirected to index.html confirmation page.
 
-Actual:
+### Actual:
 
 Website behaved as expected with no errors or warnings and redirected to index.html.<br>
 If a required field is missing the user will not be able to submit and an error field will be displayed.
@@ -120,24 +121,41 @@ Each item opened a new tab when clicked as expected.
 ### Validator Testing
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
-  ![validator result index.html](/assets/images/validator-index.png)
-  ![validator result events.html](/assets/images/validator-events.png)
-  ![validator result gallery.html](/assets/images/validator-gallery.png)
-  ![validator result signup.html](/assets/images/validator-signup.png)
+  ![validator result index.html](/assets/images/validator-index.png)<br>
+  ![validator result events.html](/assets/images/validator-events.png)<br>
+  ![validator result gallery.html](/assets/images/validator-gallery.png)<br>
+  ![validator result signup.html](/assets/images/validator-signup.png)<br>
   ![validator result thank-you.html](/assets/images/validator-thank-you.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
   ![validator result css](/assets/images/validator-css-vikingweekend.png)
 ### Unfixed Bugs
+No bugs unfixed.
 ### Deployment.
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-https://jesdah.github.io/Viking_weekend/
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.<br>
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.<br>
+```git push``` - This command was used to push all committed code to the remote repository on github.
+### Deployment to Github Pages
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+The live link can be found here. https://jesdah.github.io/Viking_weekend/
+### Clone the Repository Code Locally
+Navigate to the GitHub Repository you want to clone to use locally:
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+The project will now been cloned on your local machine for use.
 ### Credit.
 * The code for the navbar is taken from the [loverunning project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/07-gallery/02-gallery-images/index.html)
-* I learned how to use flex [w3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)And at [Flexboxfroggy](https://www.flexboxfroggy.com/)
+* I learned how to use flex [w3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)and at [Flexboxfroggy](https://www.flexboxfroggy.com/)
 * I got the code to make the thank-you page redirect to the homepage from gareth_mentor:
 ```
 <meta http-equiv="refresh" content="10; url=index.html">
