@@ -16,6 +16,7 @@
         <a href="index.html">
             <h1 id="logo">Viking Weekend</h1>
         </a>
+        <!--nav links source: love running-->
         <nav>
             <ul id="menu">
                 <li>
@@ -33,10 +34,12 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div>
             <div id="signup-photo">
                 <div>
+                    <!--sign up form-->
                     <fieldset>
                         <legend>
                             <h3>Signup!</h3>
@@ -44,26 +47,35 @@
                         <form method="get" action="thank-you.html" id="flex-form">
                             <label for="fname">First name</label>
                             <input class="text" type="text" id="fname" name="fname" required autofocus>
+                            
                             <label for="lname">Last name</label>
                             <input class="text" type="text" id="lname" name="lname" required>
+                            
                             <label for="email">Email</label>
                             <input class="text" id="email" type="email" name="email" required>
+                            
                             <label for="number">Phone number</label>
                             <input class="text" id="number" type="tel" name="number" required>
+                            
                             <label for="child-name">Child/children names</label>
                             <input class="text" type="text" id="child-name" name="child-name" required>
+                            
                             <label for="age">Age</label>
                             <input class="text" id="age" name="age" type="number" min="6" max="11" required>
+                            
                             <label for="allergies">Allergies</label>
                             <input class="text" id="allergies" aria-label="Allergies" required>
+                            <!--select dates-->
                             <label for="dates">Dates</label>
                             <select id="dates" class="text" aria-label="dates">
                                 <option value="30/6-02/7">30/6-02/7</option>
                                 <option value="07/7-09/7">07/7-09/7</option>
                                 <option value="14/7-16/7">14/7-16/7</option>
                             </select>
+                            
                             <label for="add">Anything else you like to add?</label>
                             <textarea class="text" id="add" name="add"></textarea>
+                            <!--buttons-->
                             <input id="submit" type="submit" value="Submit">
                             <input id="reset" type="reset" value="Reset">
                         </form>
@@ -72,7 +84,9 @@
             </div>
         </div>
     </main>
+
     <footer>
+        <!--social links-->
         <div id="footer-social">
             <div id="social">
                 <a href="http://www.facebook.com" target="_blank" rel="noopener"
@@ -88,6 +102,7 @@
                     aria-label="Visit our Youtube page (opens in new tab)"><i
                         class="fa-brands fa-square-youtube"></i></a>
             </div>
+            <!--contact information in footer-->
             <div id="flex-contact">
                 <h3>Contact</h3>
                 <table>
@@ -104,7 +119,6 @@
                         <td>jesperdahlberg.jd@gmail.com</td>
                     </tr>
                 </table>
-
             </div>
         </div>
     </footer>

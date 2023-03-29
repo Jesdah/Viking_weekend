@@ -51,8 +51,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-/*nav links*/
+/*nav links source: love running*/
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -67,7 +66,6 @@ li {
     list-style-type: none;
     margin: 8px;
     text-decoration: none;
-
 }
 
 #menu,
@@ -86,10 +84,11 @@ a {
         margin:2px;
     }
 }
+/*source love running*/
 #active {
     border-bottom: 1px solid;
 }
-
+/*vikingweekend*/
 #logo {
     display: flex;
     flex-direction: row;
@@ -108,14 +107,14 @@ a {
     height: 350px;
     
 }
+
 @media screen and (max-width: 800px) {
 
     #start-image>img {
         height: auto;
     }
 }
-
-
+/*welcome section*/
 #welcome {
     width: 100%;
     height: 100%;
@@ -130,15 +129,6 @@ a {
 #welcome>p {
     color: black;
 }
-
-table {
-    height: auto;
-    display: flex;
-    flex-flow: column wrap;
-}
-
-
-
 
 #contact {
     width: 100%;
@@ -171,7 +161,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 100%;
-
 }
 
 #social {
@@ -189,6 +178,12 @@ footer {
 }
 
 /*contact info in the footer*/
+table {
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
 #flex-contact {
     display: flex;
     flex-flow: column wrap;
@@ -205,7 +200,6 @@ footer {
         font-size: 70%;
         padding: 5px;
     }
-
 }
 
 /*event page*/
@@ -227,11 +221,10 @@ footer {
     margin: 50px 30px 50px 30px;
     padding: 30px;
     background-color: rgba(47, 79, 79, 0.6);
-
 }
 
 
-
+/*event photos*/
 .event-photo {
     width: 100%;
     display: flex;
@@ -253,7 +246,6 @@ footer {
         padding: 3px;
         box-sizing: border-box;
     }
-
 }
 
 /*gallery*/
@@ -286,8 +278,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
-
-
 }
 
 #photos>img {
@@ -311,7 +301,7 @@ footer {
     height: 800px;
 }
 
-/*fieldset*/
+/*signup form*/
 fieldset {
     background-color: rgba(47, 79, 79, 0.6);
     width: 33%;
@@ -332,7 +322,7 @@ fieldset {
     flex-wrap: wrap;
 
 }
-
+/*input field*/
 .text {
     background-color: rgba(47, 79, 79, 0.4);
     outline: none;
@@ -378,7 +368,7 @@ fieldset {
     border-style: groove;
     border-color: aqua;
 }
-
+/*confirmation screen*/
 #thank-you {
     text-align: center;
     background-color: rgba(47, 79, 79, 0.4);
