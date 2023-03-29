@@ -1,7 +1,7 @@
 ![screenshot of the site on different devices](/assets/images/am-i-responsive.png)
 # welcome to viking weekend! 
 ## This is a website for summer camps with a viking theme for children between 6-11 years.
-Viking weekend is a perfect opportunity to get to know new friends.
+Viking weekend is a viking themed summer camp for children between 6-11 years old and therefor perfect opportunity to get to know new friends.
 ### Navbar.
 ![screenshot of the navbar](/assets/images/navbar.png)
 * It is identical on all pages to make it easy to navigate between the different pages and it is responsive on all devices.
