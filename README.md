@@ -1,10 +1,11 @@
-![screenshot of Vikingweekend header text](/assets/images/viking-weekend.png)
+![screenshot of the site on different devices](/assets/images/am-i-responsive.png)
 # welcome to viking weekend! 
 ## This is a website for summer camps with a viking theme for children between 6-11 years.
 Viking weekend is a perfect opportunity to get to know new friends.
 ### Navbar.
 ![screenshot of the navbar](/assets/images/navbar.png)
-* It is identical on all pages to make it easy to navigate between the different pages, in the navbar there is a heading and "HOME" which takes you to the homepage, "EVENT", "GALLERY" and "SIGNUP" which takes you to the respective page.
+* It is identical on all pages to make it easy to navigate between the different pages and it is responsive on all devices.
+* This will allow users to easily navigate between the pages within the site on any size device.
 ### Start image.
 ![screenshot of two old cottages with grassroof](/assets/images/screenshot-cottage.png)
 The visitor is greeted directly by a picture of the cottage where the summer camp is based, the small cottages with their grass roofs arouse curiosity in both children and parents.
@@ -15,7 +16,9 @@ The purpose of the text is to give the reader an overview of what the parent can
 
 ### The Footer.
 ![Screenshot of the stone footer with icons to social media and contact information](/assets/images/stone-footer.png)
-the footer is placed at the bottom of the page with a background of stone and it is identical on all pages. In the footer we find contact information for the person in charge of the event as well as four links to social media.
+* The footer is placed at the bottom of the page with a background of stone and it is identical on all pages.
+* In the footer we find contact information for the person in charge of the event as well as four links to social media.
+* The footer is responsive on all devices
 
 ### Events.
 ![Screenshot of a vikingship in a lake](/assets/images/adventure-image.png)
@@ -36,13 +39,67 @@ The site allows parents/guardians to register their child or children in a simpl
 ![Screenshot of the thank you text](/assets/images/thank-you.png)
 When you have pressed submit, you will be taken to the thank you page.
 This function ensures that the user receives a confirmation that the application has been submitted, after ten seconds they are sent back to the homepage.
+### Existing features.
+* Responsive design
+* Signup form and thank you page
 ### Features left to implement.
 I would like to implement IFRAME in the #contact section with a working map.
-### Testing.
-* The website works in Chrome and Edge
-* The website works as it should in both desktop and mobile view.
-* All functions work except iframe.
-* The website is tested in lighthouse with high scores.
+### Technologies.
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The website was styled using css in a seperate file.
+* Git
+    * Used to commit and push code during the development of the Website
+* Git hub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* [squoosh](https://squoosh.app/editor)
+    * Are used to compress images.
+* [pexels](https://www.pexels.com/sv-se/)
+    * Was used to download opensource images.
+* [Fontawesome](https://fontawesome.com/)
+    * Is used to download icons used in the footer.
+## Testing.
+### Responsivenes.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on Chrome and Edge.
+### Steps to test:
+1. Open browser and navigate to Tacos Travels
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+### Expected:
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+### Actual:
+Website behaved as expected with the exception of the flex-contact being pushed out to the left when the width is under 353px.
+### Website was also opened on the following devices and no responsive issues were seen:
+* Samsung S22
+* Iphone 13
+* Lenovo ideapad S340
+## Lighthouse Testing.
+![screenshot of index.html lighthouse score](/assets/images/lighthouse-index.png)
+![screenshot of events.html lighthouse score](/assets/images/lighthouse-event.png)
+![screenshot of gallery.html lighthouse score](/assets/images/lighthouse-gallery.png)
+![screenshot of signup.html lighthouse score](/assets/images/lighthouse-signup.png)
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+| Navigation | Link Page to Load |
+|------------|-------------------|
+| HOME       | index.html        |
+| EVENTS     | events.html       |
+|GALLERY     | gallery.html      |
+Links on all pages navigated to the correct pages as exptected.
+### Form Testing.
+The form on the signup page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input.
+Steps to test:
+1. Navigate to [Viking weekend signup page.](https://jesdah.github.io/Viking_weekend/signup.html)
+2. Scroll down to the form and input the following data:
+   - First Name: John
+   - Last Name: Doe
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+4. User should be redirected to contact.html confirmation page
 ### Validator Testing
 1. HTML
 - some errors were returned when passing through the official W3C validator
